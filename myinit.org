@@ -1,0 +1,49 @@
+#+STARTUP: hidestars latexpreview content 
+#+LATEX_CLASS: article
+#+LATEX_CLASS_OPTIONS:
+#+LATEX_HEADER:
+#+LATEX_HEADER_EXTRA:
+#+DESCRIPTION:
+#+KEYWORDS:
+#+TITLE: Emacs conf 2.0
+#+SUBTITLE:
+#+LATEX_COMPILER: pdflatex
+#+DATE: [2018-12-23 Вс 18:08]
+
+* Content                                                               :TOC:
+
+  
+* Введение
+  :LOGBOOK:
+  CLOCK: [2018-12-23 Вс 18:11]--[2018-12-23 Вс 18:12] =>  0:01
+  :END:
+
+  Переработанная и структурированная версия.
+
+  
+  
+  
+* Преднастройки
+  :LOGBOOK:
+  CLOCK: [2018-12-24 Пн 13:33]--[2018-12-24 Пн 13:38] =>  0:05
+  :END:
+
+  
+* Внешний вид
+  :LOGBOOK:
+  CLOCK: [2018-12-24 Пн 13:38]--[2018-12-24 Пн 13:40] =>  0:02
+  :END:
+
+  1. [X] Привественный экран отключен
+
+     #+BEGIN_SRC emacs-lisp
+       (setq inhibit-startup-message t)
+     #+END_SRC
+
+  2. [X] Отключение графического меню
+
+     #+BEGIN_SRC emacs-lisp
+       (tool-bar-mode     -1)
+     #+END_SRC
+
+     
